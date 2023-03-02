@@ -1,2 +1,0 @@
-awslambda-psycopg2-master/
-python/
