@@ -1,0 +1,27 @@
+[{
+    "uid": "balabala",
+    " id.orig_h": "192.168.100.103",
+    "id.orig_p": "55124",
+    "id.resp_h": "65.127.233.163",
+    "id.resp_p": "23",
+    "ts": 1525879831,
+    "orig_pkts": 1,
+    "orig_ip_bytes": 60,
+    "proto": "tcp",
+    "service": "http",
+    "label": "Malicious"
+},
+{
+    "uid": "balabala",
+    " id.orig_h": "192.168.100.103",
+    "id.orig_p": "56305",
+    "id.resp_h": "63.150.16.171",
+    "id.resp_p": "23",
+    "ts": 1525898831,
+    "orig_pkts": 3,
+    "orig_ip_bytes": 180,
+    "proto": "tcp",
+    "service": "http",
+    "label": "Benign"
+}
+]
