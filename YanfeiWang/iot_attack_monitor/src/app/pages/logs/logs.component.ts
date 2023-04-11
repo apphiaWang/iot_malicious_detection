@@ -33,7 +33,7 @@ export class LogsComponent{
   }
   updateRequests() {
     axios.post('https://nxwabxe738.execute-api.us-west-2.amazonaws.com/dev',
-            {ts1: this.getSimulateTimestamp(30), ts2:this.getSimulateTimestamp()})
+            {ts1: this.getSimulateTimestamp(30), ts2:this.getSimulateTimestamp(), predictLabel:true})
         .then(r => {
             const newRequests = JSON.parse(r.data.body)
                 .map(l => ({label: l.label, text: this.generateAlertFromLog(l)}))
