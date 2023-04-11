@@ -24,7 +24,7 @@ export class TableComponent implements OnInit{
                 const receiver = `${d['id.resp_h']}:${d['id.resp_p']}`;
                 const protocol = d.proto;
                 const isMalicious = d.label == 'Malicious' ? 'Yes' : 'No';
-                const detail = d['detailed-label'];
+                const detail = d['detailed_label'];
                 return [time, sender, receiver, protocol, isMalicious, detail];
             });
             const columns = ['time', 'sender', 'receiver', 'protocol', 'isMalicious', 'detail'];
