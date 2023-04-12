@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title">History Requests</h4>
+      </div>
+      <div id="table-container"class="card-body">
+        <div *ngIf="isLoading" class="container z-index-2 position-absolute row">
+          <div class="col"><div class="loader float-right"></div></div>
+          <h3 class="col">Loading Data...</h3>
+        </div>
+        <table id="myTable" class="display"></table>
+      </div>
+    </div>
+  </div>
+</div>
